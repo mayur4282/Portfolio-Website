@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-amber-400: #FBBF24;
+  --color-amber-500: #F59E0B;
+  --color-amber-600: #D97706;
+  --color-amber-700: #B45309;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAFAFA;
+    color: #111827;
+    overflow-x: hidden;
+  }
+}
+
+/* Glowing Aura Effect for Hero Profile Card */
+.amber-glow {
+  position: relative;
+}
+
+.amber-glow::before {
+  content: '';
+  position: absolute;
+  inset: -12px;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.35) 0%, rgba(251, 191, 36, 0.15) 50%, transparent 75%);
+  border-radius: 2rem;
+  z-index: -1;
+  filter: blur(20px);
+  animation: pulseGlow 4s ease-in-out infinite alternate;
+}
+
+@keyframes pulseGlow {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F4F6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F59E0B;
+}
+
