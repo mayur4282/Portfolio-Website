@@ -20,13 +20,13 @@ export default function Footer() {
 
   return (
     <footer id="contact" className="bg-gray-900 text-white relative overflow-hidden">
-      
+
       {/* Decorative Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
-      
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start text-left">
-          
+
           {/* Brand & Summary Column */}
           <div className="md:col-span-6 space-y-4">
             <a href="#" className="inline-block text-2xl font-extrabold tracking-tight text-white group">
@@ -62,7 +62,7 @@ export default function Footer() {
                   className="inline-flex items-center text-lg sm:text-xl font-bold text-white hover:text-amber-400 transition-colors group"
                 >
                   <Mail className="w-5 h-5 mr-2.5 text-amber-500 group-hover:scale-110 transition-transform" />
-                  <span>mayurparmar42882@gmail.com</span>
+                  <span>mayurparmar4282@gmail.com</span>
                 </a>
               </div>
             </div>
