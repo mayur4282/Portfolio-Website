@@ -38,7 +38,7 @@ export default function AboutGrid() {
                   <span className="font-semibold text-gray-900 block mb-1.5">Frontend:</span>
                   <div className="flex flex-wrap gap-1.5">
                     {['React.js', 'Redux', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML5/CSS3'].map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-white border border-gray-200 rounded-md font-medium text-xs text-gray-800 shadow-2xs">
+                      <span key={skill} className="px-3 py-1 bg-[#FFFBEB] border border-[#FDE68A] text-[#B45309] rounded-lg font-medium text-xs shadow-2xs hover:bg-[#FEF3C7] transition-colors">
                         {skill}
                       </span>
                     ))}
@@ -49,7 +49,7 @@ export default function AboutGrid() {
                   <span className="font-semibold text-gray-900 block mb-1.5">Backend:</span>
                   <div className="flex flex-wrap gap-1.5">
                     {['Node.js', 'Express.js', 'RESTful APIs', 'WebSockets (Socket.io)'].map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-white border border-gray-200 rounded-md font-medium text-xs text-gray-800 shadow-2xs">
+                      <span key={skill} className="px-3 py-1 bg-[#FFFBEB] border border-[#FDE68A] text-[#B45309] rounded-lg font-medium text-xs shadow-2xs hover:bg-[#FEF3C7] transition-colors">
                         {skill}
                       </span>
                     ))}
@@ -60,7 +60,7 @@ export default function AboutGrid() {
                   <span className="font-semibold text-gray-900 block mb-1.5">Database & Caching:</span>
                   <div className="flex flex-wrap gap-1.5">
                     {['MongoDB', 'Redis', 'SQL'].map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-white border border-gray-200 rounded-md font-medium text-xs text-gray-800 shadow-2xs">
+                      <span key={skill} className="px-3 py-1 bg-[#FFFBEB] border border-[#FDE68A] text-[#B45309] rounded-lg font-medium text-xs shadow-2xs hover:bg-[#FEF3C7] transition-colors">
                         {skill}
                       </span>
                     ))}
@@ -71,7 +71,7 @@ export default function AboutGrid() {
                   <span className="font-semibold text-gray-900 block mb-1.5">DevOps & Deployment:</span>
                   <div className="flex flex-wrap gap-1.5">
                     {['Docker', 'Vercel', 'Netlify', 'Render', 'DigitalOcean'].map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-white border border-gray-200 rounded-md font-medium text-xs text-gray-800 shadow-2xs">
+                      <span key={skill} className="px-3 py-1 bg-[#FFFBEB] border border-[#FDE68A] text-[#B45309] rounded-lg font-medium text-xs shadow-2xs hover:bg-[#FEF3C7] transition-colors">
                         {skill}
                       </span>
                     ))}
@@ -82,7 +82,7 @@ export default function AboutGrid() {
                   <span className="font-semibold text-gray-900 block mb-1.5">Tools & Collaboration:</span>
                   <div className="flex flex-wrap gap-1.5">
                     {['Git', 'GitHub', 'Postman', 'Figma'].map((skill) => (
-                      <span key={skill} className="px-2.5 py-1 bg-white border border-gray-200 rounded-md font-medium text-xs text-gray-800 shadow-2xs">
+                      <span key={skill} className="px-3 py-1 bg-[#FFFBEB] border border-[#FDE68A] text-[#B45309] rounded-lg font-medium text-xs shadow-2xs hover:bg-[#FEF3C7] transition-colors">
                         {skill}
                       </span>
                     ))}
