@@ -57,8 +57,7 @@ export default function Hero() {
 
               {/* Primary Download Resume Button */}
               <a
-                href="/images/MAYUR PARMAR..resume.pdf"
-                download="MAYUR_PARMAR_Resume.pdf"
+                href="https://drive.google.com/uc?export=download&id=14f8Xn0R6_IKxOlLN_Pq1KrvzJQx9MoFh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 text-base font-semibold text-gray-900 bg-amber-500 hover:bg-amber-400 rounded-xl shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 active:scale-98 transition-all duration-200 group cursor-pointer"
