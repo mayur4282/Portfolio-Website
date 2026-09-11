@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ArrowUp } from 'lucide-react';
+import { Mail, MapPin, ArrowUp } from 'lucide-react';
 
 const GithubIcon = ({ className = "w-7 h-7" }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -47,15 +47,6 @@ export default function Footer() {
               <h3 className="text-xs font-bold uppercase tracking-widest text-amber-500 mb-3">Let's Connect</h3>
 
               <div className="space-y-2 flex flex-col md:items-end">
-                {/* Phone Contact */}
-                <a
-                  href="tel:7000758576"
-                  className="inline-flex items-center text-lg sm:text-xl font-bold text-white hover:text-amber-400 transition-colors group"
-                >
-                  <Phone className="w-5 h-5 mr-2.5 text-amber-500 group-hover:scale-110 transition-transform" />
-                  <span>Contact: +91 7000758576</span>
-                </a>
-
                 {/* Direct Email Link */}
                 <a
                   href="mailto:mayurparmar42882@gmail.com"
